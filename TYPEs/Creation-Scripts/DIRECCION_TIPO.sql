@@ -1,0 +1,7 @@
+CREATE OR REPLACE EDITIONABLE TYPE DIRECCION_TIPO AS OBJECT (
+  calle VARCHAR2(100),
+  ciudad VARCHAR2(50),
+  codigo_postal VARCHAR2(10)  -- campo agregado
+);
+/
+
