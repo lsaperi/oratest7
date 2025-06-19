@@ -1,0 +1,37 @@
+{
+  "Attributes": [
+    {
+      "ATTR_NAME": "ID",
+      "ATTR_NO": 1.0,
+      "ATTR_TYPE_NAME": "NUMBER",
+      "CHARACTER_SET_NAME": null,
+      "LENGTH": null,
+      "PRECISION": null,
+      "SCALE": null,
+      "TYPE": "TYPE",
+      "TYPE_NAME": "TIPO_B"
+    },
+    {
+      "ATTR_NAME": "INFO_A",
+      "ATTR_NO": 2.0,
+      "ATTR_TYPE_NAME": "TIPO_A",
+      "CHARACTER_SET_NAME": null,
+      "LENGTH": null,
+      "PRECISION": null,
+      "SCALE": null,
+      "TYPE": "TYPE",
+      "TYPE_NAME": "TIPO_B"
+    }
+  ],
+  "General": [
+    {
+      "EDITIONABLE": "Y",
+      "FINAL": "YES",
+      "OBJECT_TYPE": "TYPE",
+      "SUPERTYPE_NAME": null,
+      "TYPE_NAME": "TIPO_B",
+      "TYPECODE": "OBJECT"
+    }
+  ],
+  "Methods": []
+}
