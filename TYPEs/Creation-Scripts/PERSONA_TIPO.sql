@@ -1,0 +1,10 @@
+CREATE OR REPLACE EDITIONABLE TYPE PERSONA_TIPO AS OBJECT (
+  nombre VARCHAR2(100),
+  edad   NUMBER,
+  email  VARCHAR2(100),
+
+  -- Método agregado
+  MEMBER FUNCTION get_info RETURN VARCHAR2
+);
+/
+

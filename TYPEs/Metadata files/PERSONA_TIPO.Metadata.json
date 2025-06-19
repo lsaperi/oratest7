@@ -1,0 +1,75 @@
+{
+  "Attributes": [
+    {
+      "ATTR_NAME": "EDAD",
+      "ATTR_NO": 2.0,
+      "ATTR_TYPE_NAME": "NUMBER",
+      "CHARACTER_SET_NAME": null,
+      "LENGTH": null,
+      "PRECISION": null,
+      "SCALE": null,
+      "TYPE": "TYPE",
+      "TYPE_NAME": "PERSONA_TIPO"
+    },
+    {
+      "ATTR_NAME": "EMAIL",
+      "ATTR_NO": 3.0,
+      "ATTR_TYPE_NAME": "VARCHAR2",
+      "CHARACTER_SET_NAME": "CHAR_CS",
+      "LENGTH": 100.0,
+      "PRECISION": null,
+      "SCALE": null,
+      "TYPE": "TYPE",
+      "TYPE_NAME": "PERSONA_TIPO"
+    },
+    {
+      "ATTR_NAME": "NOMBRE",
+      "ATTR_NO": 1.0,
+      "ATTR_TYPE_NAME": "VARCHAR2",
+      "CHARACTER_SET_NAME": "CHAR_CS",
+      "LENGTH": 100.0,
+      "PRECISION": null,
+      "SCALE": null,
+      "TYPE": "TYPE",
+      "TYPE_NAME": "PERSONA_TIPO"
+    }
+  ],
+  "General": [
+    {
+      "EDITIONABLE": "Y",
+      "FINAL": "YES",
+      "OBJECT_TYPE": "TYPE",
+      "SUPERTYPE_NAME": null,
+      "TYPE_NAME": "PERSONA_TIPO",
+      "TYPECODE": "OBJECT"
+    }
+  ],
+  "Methods": [
+    {
+      "FINAL": "NO",
+      "METHOD_NAME": "GET_INFO",
+      "METHOD_NO": 1.0,
+      "METHOD_TYPE": "PUBLIC",
+      "OVERRIDING": "NO",
+      "Parameters": [
+        {
+          "CHARACTER_SET_NAME": null,
+          "PARAM_MODE": "IN",
+          "PARAM_NAME": "SELF",
+          "PARAM_NO": 1.0,
+          "PARAM_TYPE_NAME": "PERSONA_TIPO"
+        }
+      ],
+      "Results": [
+        {
+          "CHARACTER_SET_NAME": "CHAR_CS",
+          "METHOD_NO": 1.0,
+          "RESULT_TYPE_MOD": null,
+          "RESULT_TYPE_NAME": "VARCHAR2"
+        }
+      ],
+      "TYPE": "TYPE",
+      "TYPE_NAME": "PERSONA_TIPO"
+    }
+  ]
+}
